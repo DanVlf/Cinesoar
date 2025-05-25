@@ -1,0 +1,37 @@
+import React from 'react';
+
+const Hero = () => {
+  return (
+    <div className="relative h-screen w-full overflow-hidden">
+      {/* Pozadí – video bez možnosti kliknutí */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover brightness-50 pointer-events-none"
+      >
+        <source src="Timeline 0.mp4" type="video/mp4" />
+      </video>
+
+      {/* Text a tlačítko */}
+      <div className="absolute top-1/2 left-10 transform -translate-y-1/2 text-white animate-fade-in max-w-2xl px-6 md:px-12 mt-56">
+        <h1 className="text-2xl md:text-4xl font-serif font-semibold text-shadow-2xl leading-tight tracking-wider">
+          CineSoar Drone Tours
+        </h1>
+        <p className="mt-4 text-base md:text-lg font-normal text-shadow-md opacity-90">
+          Nejlepší způsob, jak nahlédnout dovnitř.<br />
+          CineSoar zachycuje interiéry pomocí speciálně upravených FPV dronů — plynulé a dynamické záběry jako nikdy předtím.
+        </p>
+        <a
+          href="#services"
+          className="mt-6 inline-block bg-white text-black px-6 py-3 rounded-full text-sm font-medium shadow-lg transform hover:bg-gray-800 hover:text-white transition-all"
+        >
+          Prozkoumat lety
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;
