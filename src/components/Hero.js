@@ -15,7 +15,7 @@ const Hero = () => {
 
       {/* Text a tlačítko */}
       <div className="absolute top-1/2 left-10 transform -translate-y-1/2 text-white animate-fade-in max-w-2xl px-6 md:px-12 mt-56">
-        <h1 className="text-2xl md:text-4xl font-serif font-semibold text-shadow-2xl leading-tight tracking-wider">
+        <h1 className="text-2xl md:text-4xl font-semibold text-shadow-2xl leading-tight tracking-wider">
           CineSoar Drone Tours
         </h1>
         <p className="mt-4 text-base md:text-lg font-normal text-shadow-md opacity-90">

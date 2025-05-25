@@ -6,9 +6,8 @@ import About from "./components/About";
 
 function App() {
   return (
-    <div className="App scroll-smooth">
-      {" "}
-      {/* Přidání smooth scroll pro celou aplikaci */}
+    <div className="App scroll-smooth font-myfont">
+      {/* Přidání smooth scroll pro celou aplikaci a vlastního fontu */}
       <Navbar />
       <Hero />
       <About />

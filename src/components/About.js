@@ -22,7 +22,7 @@ const About = () => {
         {/* Textová část */}
         <div className="text-center md:text-left max-w-xl mx-auto md:mx-0">
           <h2 className="text-5xl font-bold mb-8 tracking-tight leading-tight text-gray-900 drop-shadow-xl">
-            Kdo jsme?
+            KDO JSME?
           </h2>
           <p className="text-lg md:text-xl leading-relaxed mb-6 opacity-90 drop-shadow-lg">
             Jsme tým nadšenců, kteří propojují technologie, umění a dobrodružství. Každý z nás má své jedinečné dovednosti a všichni se spojujeme v touze zachytit ty nejkrásnější záběry.
