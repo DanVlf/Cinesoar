@@ -3,7 +3,6 @@ import React from 'react';
 const Hero = () => {
   return (
     <div className="relative h-screen w-full overflow-hidden">
-      {/* Pozadí – video bez možnosti kliknutí */}
       <video
         autoPlay
         muted
@@ -11,7 +10,7 @@ const Hero = () => {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover brightness-50 pointer-events-none"
       >
-        <source src="Timeline 0.mp4" type="video/mp4" />
+        <source src="Timeline.mp4" type="video/mp4" />
       </video>
 
       {/* Text a tlačítko */}
