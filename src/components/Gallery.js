@@ -6,7 +6,7 @@ const Gallery = () => {
   const images = [
     '/dron.jpeg',
     '/drone2.jpeg',
-    '/image/drone3.jpg',
+    'drone3.webp',
   ];
 
   return (

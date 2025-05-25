@@ -2,20 +2,18 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="bg-white py-32 px-6 md:px-20 text-gray-800 relative border-t-4 border-b-4 border-gray-200 shadow-xl" id="about">
+    <section className="bg-white py-32 px-6 md:px-20 text-gray-800 relative  " id="about">
       {/* Jemné stínování pozadí pro lepší viditelnost */}
       <div className="absolute inset-0 bg-gradient-to-r from-gray-50 via-gray-100 to-gray-200 opacity-70"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto flex flex-col md:flex-row gap-12 items-center justify-center md:justify-between">
         {/* Obrázková část */}
-        <div className="w-full md:w-1/2 relative">
+        <div className="w-full md:w-1/3 relative">
           <img
             src="/dron.jpeg"
             alt="Dron v akci"
             className="w-full h-full object-cover rounded-2xl shadow-xl transform transition-all duration-300 hover:scale-105"
-            style={{
-              boxShadow: "0 15px 30px rgba(0, 0, 0, 0.1)", // Jemný stín pro obrázek
-            }}
+
           />
         </div>
 
