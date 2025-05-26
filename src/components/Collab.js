@@ -4,9 +4,9 @@ import React from 'react';
 const logos = [
   { src: '/logos/zrnozrnko.png', alt: 'Zrno Zrnko' },
   { src: '/logos/gala_drones.png', alt: 'Gala Drones' },
-  { src: '/logos/centercapital.svg', alt: 'Center Capital' },
   { src: '/logos/caferepublic.png', alt: 'Café Republic' },
   { src: '/logos/Stejkarna_repy.png', alt: 'Stejkarna Řepy' },
+  { src: '/logos/centercapital.svg', alt: 'Center Capital' },
 ];
 
 export default function Example() {
