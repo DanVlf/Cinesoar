@@ -4,6 +4,9 @@ import Navbar from "./components/Navbar";
 import Gallery from "./components/Gallery";
 import About from "./components/About";
 import Collab from "./components/Collab";
+import Player from "./components/Player";
+
+
 import Footer from "./components/Footer"; // přidáno
 
 
@@ -14,7 +17,10 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <section id="player">
       <Collab /> {/* přidáno */}
+      <Player />
+      </section>
 
       <Gallery />
       <Footer />

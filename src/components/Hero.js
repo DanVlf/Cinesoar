@@ -23,7 +23,7 @@ const Hero = () => {
           CineSoar zachycuje interiéry pomocí speciálně upravených FPV dronů — plynulé a dynamické záběry jako nikdy předtím.
         </p>
         <a
-          href="#services"
+          href="#player"
           className="mt-6 inline-block bg-white text-black px-6 py-3 rounded-full text-sm font-medium shadow-lg transform hover:bg-gray-800 hover:text-white transition-all"
         >
           Prozkoumat lety
