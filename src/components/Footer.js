@@ -28,7 +28,7 @@ const Footer = () => {
           <a href="https://maps.app.goo.gl/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-500">
             <FaMapMarkerAlt size={20} />
           </a>
-          <a href="https://instagram.com/cinesoar" target="_blank" rel="noopener noreferrer" className="hover:text-gray-500">
+          <a href="https://www.instagram.com/cine.soar/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-500">
             <FaInstagram size={20} />
           </a>
         </div>

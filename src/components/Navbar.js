@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="pl-10 pt-2">
           <a href="#" className="flex items-center space-x-2">
             <img
-              src="/logo.png"
+              src="/fpv_white.svg"
               alt="CineSoar logo"
               width="50"
               className="h-8"
@@ -50,7 +50,7 @@ const Navbar = () => {
             href={orderFormUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:bg-gray-400 bg-gray-200 text-gray-800 text-lg font-semibold px-4 py-1 rounded-md transition-colors"
+            className=" bg-white text-black hover:bg-gray-800 hover:text-white text-lg font-semibold px-4 py-1 rounded-md transition-colors"
           >
             Objednat let
           </a>
@@ -89,7 +89,7 @@ const Navbar = () => {
           <a
             href="#sluzby"
             onClick={() => setMobileOpen(false)}
-            className="text-white text-base font-medium hover:text-gray-900 transition-colors"
+            className=" bg-white text-black hover:bg-gray-800 hover:text-white transition-colors"
           >
             Naše služby
           </a>

@@ -25,7 +25,7 @@ const Hero = () => {
         </p>
         <a
           href="#player"
-          className="mt-6 inline-block bg-white text-black px-6 py-3 rounded-full text-sm font-medium shadow-lg transform hover:bg-gray-800 hover:text-white transition-all"
+          className="mt-6 inline-block bg-white text-black hover:bg-gray-800 hover:text-white px-6 py-3 rounded-full text-sm font-medium shadow-lg transform  transition-all"
         >
           Prozkoumat lety
         </a>
