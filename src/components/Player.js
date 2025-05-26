@@ -22,7 +22,6 @@ const videos = [
 export default function VideoPlayer() {
   const [current, setCurrent] = useState(0);
   const { src, title, description } = videos[current];
-
   const [typedDesc, setTypedDesc] = useState('');
 
   // Typing effect
@@ -35,7 +34,7 @@ export default function VideoPlayer() {
       if (index >= description.length) {
         clearInterval(interval);
       }
-    }, 15); // adjust speed (ms) per character
+    }, 10); // speed per character
     return () => clearInterval(interval);
   }, [description]);
 
@@ -43,11 +42,12 @@ export default function VideoPlayer() {
   const next = () => setCurrent((i) => (i === videos.length - 1 ? 0 : i + 1));
 
   return (
-    <section className="py-12 bg-gray-50">
-      <div className="max-w-5xl mx-auto flex flex-col lg:flex-row items-center gap-8">
+    <section className="py-12 bg-gray-50 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto flex flex-col lg:flex-row items-center gap-8">
         {/* Video Container */}
         <div className="w-full lg:w-2/3 bg-gray-900 rounded-xl overflow-hidden shadow-lg relative">
           <div className="relative pb-[56.25%] bg-black">
+            {/* overlay */}
             <div className="absolute inset-0 bg-black opacity-20" />
             <video
               key={src}
@@ -57,6 +57,7 @@ export default function VideoPlayer() {
               loop
               muted
             />
+            {/* arrows */}
             <button
               onClick={prev}
               className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-50 p-3 rounded-full"
@@ -71,6 +72,7 @@ export default function VideoPlayer() {
             >
               ›
             </button>
+            {/* title overlay */}
             <div className="absolute bottom-4 left-4">
               <h2 className="text-xl md:text-2xl font-semibold text-white bg-black bg-opacity-60 px-3 py-1 rounded">
                 {title}

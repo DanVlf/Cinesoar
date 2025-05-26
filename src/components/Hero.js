@@ -1,3 +1,4 @@
+// src/components/Hero.js
 import React from 'react';
 
 const Hero = () => {
@@ -8,13 +9,13 @@ const Hero = () => {
         muted
         loop
         playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover brightness-50 pointer-events-none"
+        className="absolute inset-0 w-full h-full object-cover brightness-50 pointer-events-none"
       >
         <source src="Timeline.mp4" type="video/mp4" />
       </video>
 
       {/* Text a tlačítko */}
-      <div className="absolute top-1/2 left-10 transform -translate-y-1/2 text-white animate-fade-in max-w-2xl px-6 md:px-12 mt-56">
+      <div className="absolute top-1/2 left-4 md:left-10 transform -translate-y-1/2 mt-56 text-white animate-fade-in max-w-2xl px-6 md:px-12">
         <h1 className="text-2xl md:text-4xl font-semibold text-shadow-2xl leading-tight tracking-wider">
           CineSoar Drone Tours
         </h1>
