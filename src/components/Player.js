@@ -1,29 +1,28 @@
-// src/components/VideoPlayer.js
 import React, { useState, useEffect, useRef } from 'react';
 
 const videos = [
     {
-      src: '/web1.mp4',
+      src: '/web1_scaled.mp4',
       title: 'Tropical Paradise',
       description: 'Dive into vibrant sunsets and swaying palms in a lush coastal haven.',
     },
     {
-      src: '/web6.mp4',
+      src: '/web6_scaled.mp4',
       title: 'Deep Forest',
       description: 'Wander among towering pines and misty canopies in an ancient woodland.',
     },
     {
-      src: '/web2.mp4',
+      src: '/web2_scaled.mp4',
       title: 'Natural Waterfall',
       description: 'Listen to cascading water carving paths through untouched boulders.',
     },
     {
-      src: '/web5.mp4',
+      src: '/web5_scaled.mp4',
       title: 'City Flyover',
       description: 'Witness urban life pulsing below from neon-lit streets to skyscraper tops.',
     },
     {
-      src: '/web7.mp4',
+      src: '/web7_scaled.mp4',
       title: 'Mountain Peaks',
       description: 'Ascend to snowy summits bathed in golden light above the clouds.',
     },
